@@ -21,3 +21,6 @@ class Libreria:
     print (nom)
     print ("\nOrganizados por paginas:")
     print (pag)
+    g=open("salida.txt","w")
+    g.write("Organizados por nombres:\n"+nom+"\n\n"+"Organizados por paginas:\n"+pag)
+    g.close()
